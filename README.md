@@ -1,7 +1,17 @@
 # JSON-Viewer
 JSON parser and viewer 
 
+### Screenshots
 
+<img src="https://github.com/xihadulislam/JSON-Viewer/blob/master/ss/ss.png" height="500em" /> 
+
+<br/>
+<br/>
+
+<img src="https://github.com/xihadulislam/JSON-Viewer/blob/master/ss/ss2.png" height="500em" /> 
+
+
+#XML code
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -19,6 +29,10 @@ JSON parser and viewer
 </HorizontalScrollView>
 ```
 
+<br/>
+<br/>
+
+#MainActivity.kt
 
 ```kt
       Thread {
@@ -30,18 +44,6 @@ JSON parser and viewer
 
         }.start()
 ```
-
-
-### Screenshots
-
-<img src="https://github.com/xihadulislam/JSON-Viewer/blob/master/ss/ss.png" height="500em" /> 
-
-<br/>
-<br/>
-
-<img src="https://github.com/xihadulislam/JSON-Viewer/blob/master/ss/ss2.png" height="500em" /> 
-
-
 
 ## LICENSE
 
