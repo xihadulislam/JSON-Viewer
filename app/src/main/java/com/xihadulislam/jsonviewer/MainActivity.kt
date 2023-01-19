@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         mHScrollView = findViewById(R.id.hsv)
+
         mRecyclewView = findViewById(R.id.rv_json)
         mRecyclewView.setScaleEnable(true)
         Thread {
