@@ -1,0 +1,154 @@
+{
+  "test": "-6",
+  "link": {
+    "url": "https://img.alicdn.com/imgextra/i3/2680068332/TB2ovv0XyERMe2680068332.jpg"
+  },
+  "current": {
+    "rain": false,
+    "feelsLike": {
+      "unit": "℃",
+      "value": "-6"
+    },
+    "uvIndex": "6",
+    "visibility": {
+      "unit": "km",
+      "value": ""
+    },
+    "weather": "0",
+    "wind": {
+      "direction": {
+        "unit": "°",
+        "value": "315"
+      },
+      "speed": {
+        "unit": "km/h",
+        "value": "8.5"
+      }
+    }
+  },
+  "forecastHourly": {
+    "aqi": {
+      "status": -2
+    },
+    "desc": "未来24小时晴",
+    "status": 0,
+    "temperature": {
+      "pubTime": "2017-11-30T12:00:00+08:00",
+      "status": 0,
+      "unit": "℃",
+      "value": [
+        1,
+        2,
+        3
+      ]
+    },
+    "weather": {
+      "pubTime": "2017-11-30T12:00:00+08:00",
+      "status": 0,
+      "value": [
+        0
+      ]
+    },
+    "wind": {
+      "status": 0,
+      "value": [
+        {
+          "datetime": "2017-11-30T12:00:00.000+08:00",
+          "direction": "321.55",
+          "speed": "11.69"
+        },
+        {
+          "datetime": "2017-12-02T10:00:00.000+08:00",
+          "direction": "73.51",
+          "speed": "1.77"
+        }
+      ]
+    }
+  },
+  "alerts": [
+  ],
+  "yesterday": {
+    "aqi": "53",
+    "date": "2017-11-29T12:10:00+08:00",
+    "status": 0,
+    "sunRise": "2017-11-29T07:14:00+08:00",
+    "sunSet": "2017-11-29T16:50:00+08:00",
+    "tempMax": "1",
+    "windSpeedEnd": "8.5",
+    "windSpeedStart": "8.5"
+  },
+  "url": {
+    "weathercn": "",
+    "caiyun": ""
+  },
+  "brandInfo": {
+    "brands": [
+      {
+        "brandId": "caiyun",
+        "logo": "http://f5.market.mi-img.com/download/MiSafe/069835733640846b1b2613a855328d2b6df404343/a.webp",
+        "names": {
+          "en_US": "彩云天气",
+          "zh_TW": "彩雲天氣",
+          "zh_CN": "彩云天气"
+        },
+        "url": ""
+      },
+      {
+        "brandId": "sina",
+        "logo": "http://f5.market.xiaomi.com/download/MiSafe/069835733640846b1b2615a85132892b63f404343/a.webp",
+        "names": {
+          "en_US": "新浪天气通",
+          "zh_TW": "新浪天氣通",
+          "zh_CN": "新浪天气通"
+        },
+        "url": ""
+      }
+    ]
+  },
+  "preHour": [
+    {
+      "pubTime": "2017-11-30T11:00:00+08:00",
+      "wind": {
+        "speed": {
+          "unit": "km/h",
+          "value": "15.5"
+        },
+        "direction": {
+          "unit": "°",
+          "value": "315"
+        }
+      },
+      "feelsLike": {
+        "unit": "℃",
+        "value": "-10"
+      },
+      "aqi": {
+        "pubTime": "2017-11-30T09:00:00+08:00",
+        "so2": "3",
+        "pm10Desc": "PM10对人的影响要大于其他任何污染物，长期暴露于污染环境可能导致罹患心血管和呼吸道疾病甚至肺癌",
+        "o3": "37",
+        "coDesc": "一氧化碳是无色，无臭，无味气体，但吸入对人体有十分大的危害",
+        "pm10": "36",
+        "pm25Desc": "PM2.5能够在大气中停留很长时间，并可随呼吸进入体内，积聚在气管或肺中，影响身体健康",
+        "pm25": "12",
+        "src": "中国环境监测总站",
+        "brandInfo": {
+          "brands": [
+            {
+              "logo": "",
+              "names": {
+                "zh_TW": "中國環境監測總站"
+              },
+              "brandId": "CNEMC",
+              "url": ""
+            }
+          ]
+        }
+      },
+      "temperature": {
+        "unit": "℃",
+        "value": "-3"
+      }
+    }
+  ]
+}

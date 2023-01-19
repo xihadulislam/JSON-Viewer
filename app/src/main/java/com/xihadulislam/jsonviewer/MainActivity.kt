@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
         Thread {
             val fileInString: String =
                 applicationContext.assets.open("demo.json").bufferedReader().use { it.readText() }
-            runOnUiThread { mRecyclewView.bindJson(fileInString) }
+            runOnUiThread {
+                mRecyclewView.bindJson(fileInString)
+            }
 
         }.start()
     }
